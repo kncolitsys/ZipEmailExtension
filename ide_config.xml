@@ -1,0 +1,26 @@
+<application>
+	<name>ZipEmail</name>
+	<version>1.0</version>
+	<description>desc.html</description>	
+	<license>license.html</license>
+
+    <menucontributions >
+		<contribution target="projectview">
+			<menu name="Zip/Email">
+	    		<action name="Run Zip/Email" handlerid="main" showResponse="true">
+				</action>
+			</menu>
+		</contribution>
+		<contribution target="editor">
+			<menu name="Zip/Email">
+				<action name="Run Zip/Email" handlerid="main" showresponse="true">
+				</action>
+			</menu>		
+		</contribution>			
+    </menucontributions>	
+
+	<handlers>		
+		<handler id="main" type="CFM" filename="main.cfm" />
+	</handlers>
+
+</application>
